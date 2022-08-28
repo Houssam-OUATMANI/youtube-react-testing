@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+}
+.form {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.form textarea {
+  width: 100%;
+  height: 200px;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 35px rgba(0, 0, 0, 0.547);
+  background-color: rgb(206, 206, 206);
+  outline: none;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.form button {
+  display: block;
+  margin: 2rem 5rem 0 auto;
+  text-align: center;
+  width: 300px;
+}

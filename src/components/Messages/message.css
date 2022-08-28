@@ -1,0 +1,14 @@
+.message-list, .client-list {
+    list-style: none;
+    width: 800px;
+    margin: 2rem auto;
+}
+.message-list li, .client-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border: 2px solid gold;
+    padding: 0.5rem 2rem;
+    margin-top: 0.5rem;
+}
