@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Buttons from "../../components/Buttons";
-import Counter from "../../components/Counter";
+import ClickCount from "../../components/ClickCount";
 import "./home.css";
 const Home = () => {
   const [count, setCount] = useState(0);
@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="home">
       <h1>Home page</h1>
-      <Counter count={count} />
+      <ClickCount count={count} />
       <Buttons count={count} decrement={decrement} increment={increment} />
     </div>
   );

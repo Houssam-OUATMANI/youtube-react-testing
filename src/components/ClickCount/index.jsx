@@ -1,5 +1,5 @@
-import "./counter.css";
-const Counter = ({ count }) => {
+import "./clickCount.css";
+const ClickCount = ({ count }) => {
   return (
     <p  className="count">
       {count} {count !== 1 ? "clicks" : "click"}
@@ -7,4 +7,4 @@ const Counter = ({ count }) => {
   );
 };
 
-export default Counter;
+export default ClickCount;
